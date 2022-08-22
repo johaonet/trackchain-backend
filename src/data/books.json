@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "First Book",
+        "yearPublication" : 2021,
+        "author" : { "id" : 1 , "firstName" : "Juan", "lastName" : "Cespedes"}
+
+    },
+    {
+        "id": 2,
+        "title": "Second Book",
+        "yearPublication" : 2022,
+        "author" : { "id" : 2 , "firstName" : "Jorge", "lastName" : "Benavides"}
+
+    }
+]
+
