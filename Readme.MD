@@ -25,14 +25,15 @@ This is a simple REST API developed using node and express with typescript
 
 ```
 src
-└───index.ts          # Application entry point
-└───routes            # Application routes / endpoints
-└───controllers       # Express route controllers for all the endpoints of the app
-└───repositories      # All the database interaction logic is here
-└───data              # data
-└───handlers          # Common logic
-└───logs              # application logs
-└───models            # DB Models
+└───index.ts           # Application entry point
+└───routes             # Application routes / endpoints
+└───controllers        # Express route controllers for all the endpoints of the app
+└───repositories       # All the database interaction logic is here
+└───data               # data
+└───handlers           # Common logic
+└───logs               # application logs
+└───models             # DB Models
+└───postman_collection # import file json for use postman
 
 ```
 
