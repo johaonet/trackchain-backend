@@ -49,7 +49,6 @@ src
 - \[x] Postman collections
 - \[ ] Improve request Object Validations
 - \[ ] Improve Error Messages for request failures
-- \[x] Project / DB Setup in Ubuntu - Docs
 - \[ ] Security
 - \[ ] Hosting
 
