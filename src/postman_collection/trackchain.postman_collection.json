@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "a0fe7138-d9c1-42fc-a443-baeb8db69eaf",
+		"name": "trackchain",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12221610"
+	},
+	"item": [
+		{
+			"name": "get books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{trackchain}}/api/book",
+					"host": [
+						"{{trackchain}}"
+					],
+					"path": [
+						"api",
+						"book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get book by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{trackchain}}/api/book/1",
+					"host": [
+						"{{trackchain}}"
+					],
+					"path": [
+						"api",
+						"book",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update book",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\" : \"titulo nuevo\",\r\n    \"yearPublication\" : 2019,\r\n    \"id\" :3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{trackchain}}/api/book/1",
+					"host": [
+						"{{trackchain}}"
+					],
+					"path": [
+						"api",
+						"book",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create book ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\" : \"Libro nuevo 2\",\r\n    \"yearPublication\" : 2019,\r\n      \"author\": {\r\n        \"id\": 1,\r\n        \"firstName\": \"Karla\",\r\n        \"lastName\": \"Vallejo\"\r\n    }\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{trackchain}}/api/book",
+					"host": [
+						"{{trackchain}}"
+					],
+					"path": [
+						"api",
+						"book"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
